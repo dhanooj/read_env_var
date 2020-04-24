@@ -1,0 +1,8 @@
+logger:
+     file:
+       level: DEBUG
+       path: D:\File_Extractor_service\log.txt
+cognite:
+    base_url: https://api.cognitedata.com
+    api_key: !ENV ${COGNITE_API_KEY}
+    project: noc
